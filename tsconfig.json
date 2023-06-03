@@ -19,8 +19,11 @@
     "target": "ES2022",
     "module": "ES2022",
     "paths": {
-      "tabler-lib": [
-        "dist/tabler-lib"
+      "@tabler-lib": [
+        "projects/tabler-lib/src/lib"
+      ],
+      "@tabler-lib/*": [
+        "projects/tabler-lib/src/lib/*"
       ]
     },
     "useDefineForClassFields": false,

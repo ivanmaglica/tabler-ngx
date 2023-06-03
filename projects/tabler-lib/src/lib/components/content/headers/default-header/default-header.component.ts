@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-default-content-header',
+  selector: 'tbl-default-page-header',
   templateUrl: './default-header.component.html',
   styleUrls: ['./default-header.component.css']
 })

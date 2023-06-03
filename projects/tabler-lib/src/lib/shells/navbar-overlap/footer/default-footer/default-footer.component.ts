@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'tbl-default-content-footer',
+  selector: 'tbl-default-footer',
   templateUrl: './default-footer.component.html',
   styleUrls: ['./default-footer.component.css']
 })
