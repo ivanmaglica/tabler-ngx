@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TablerLibService } from './tabler-ngx.service';
+import { TablerNgxService } from './tabler-ngx.service';
 
-describe('TablerLibService', () => {
-  let service: TablerLibService;
+describe('TablerNgxService', () => {
+  let service: TablerNgxService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(TablerLibService);
+    service = TestBed.inject(TablerNgxService);
   });
 
   it('should be created', () => {

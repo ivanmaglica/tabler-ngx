@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TablerLibComponent } from './tabler-ngx.component';
+import { TablerNgxComponent } from './tabler-ngx.component';
 
-describe('TablerLibComponent', () => {
-  let component: TablerLibComponent;
-  let fixture: ComponentFixture<TablerLibComponent>;
+describe('TablerNgxComponent', () => {
+  let component: TablerNgxComponent;
+  let fixture: ComponentFixture<TablerNgxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TablerLibComponent ]
+      declarations: [ TablerNgxComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TablerLibComponent);
+    fixture = TestBed.createComponent(TablerNgxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

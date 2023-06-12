@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TablerLibComponent } from './tabler-ngx.component';
+import { TablerNgxComponent } from './tabler-ngx.component';
 
 import { FullPageComponent } from './pages/full-page/full-page.component';
 import { EmptyShellComponent } from './shells/empty-shell/empty-shell.component';
@@ -12,7 +12,7 @@ import { VerticalTransparentShellComponent } from './shells/vertical-transparent
 
 @NgModule({
   declarations: [
-    TablerLibComponent,
+    TablerNgxComponent,
     FullPageComponent,
 
     EmptyShellComponent,
@@ -23,7 +23,7 @@ import { VerticalTransparentShellComponent } from './shells/vertical-transparent
     CommonModule
   ],
   exports: [
-    TablerLibComponent,
+    TablerNgxComponent,
     FullPageComponent,
 
     EmptyShellComponent,
@@ -31,4 +31,4 @@ import { VerticalTransparentShellComponent } from './shells/vertical-transparent
     
   ]
 })
-export class TablerLibModule { }
+export class TablerNgxModule { }
