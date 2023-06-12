@@ -1,0 +1,14 @@
+<header class="navbar-expand-md">
+  <div class="collapse navbar-collapse" id="navbar-menu">
+    <div class="navbar navbar-light">
+      <div class="container-xl">
+        <ul class="navbar-nav">
+          <ng-content></ng-content>
+        </ul>
+        <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+          <ng-content select="[right]"></ng-content>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
