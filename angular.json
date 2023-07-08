@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tabler-lib": {
+    "tabler-ngx": {
       "projectType": "library",
-      "root": "projects/tabler-lib",
-      "sourceRoot": "projects/tabler-lib/src",
+      "root": "projects/tabler-ngx",
+      "sourceRoot": "projects/tabler-ngx/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/tabler-lib/ng-package.json"
+            "project": "projects/tabler-ngx/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/tabler-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/tabler-ngx/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/tabler-lib/tsconfig.lib.json"
+              "tsConfig": "projects/tabler-ngx/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,107 +27,11 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/tabler-lib/tsconfig.spec.json",
+            "tsConfig": "projects/tabler-ngx/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
             ]
-          }
-        }
-      }
-    },
-    "design": {
-      "projectType": "application",
-      "schematics": {},
-      "root": "projects/design",
-      "sourceRoot": "projects/design/src",
-      "prefix": "app",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:browser-esbuild",
-          "options": {
-            "outputPath": "dist/design",
-            "index": "projects/design/src/index.html",
-            "main": "projects/design/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
-            "tsConfig": "projects/design/tsconfig.app.json",
-            "assets": [
-              "projects/design/src/favicon.ico",
-              "projects/design/src/assets",
-              {
-                "glob": "**/*",
-                "input": "projects/tabler-lib/assets/tabler",
-                "output": "/assets/"
-              }
-            ],
-            "styles": [
-              "projects/design/src/styles.css"
-            ],
-            "scripts": []
-          },
-          "configurations": {
-            "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
-                }
-              ],
-              "outputHashing": "all"
-            },
-            "development": {
-              "buildOptimizer": false,
-              "optimization": false,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
-          "configurations": {
-            "production": {
-              "browserTarget": "design:build:production"
-            },
-            "development": {
-              "browserTarget": "design:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "design:build"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "projects/design/tsconfig.spec.json",
-            "assets": [
-              "projects/design/src/favicon.ico",
-              "projects/design/src/assets"
-            ],
-            "styles": [
-              "projects/design/src/styles.css"
-            ],
-            "scripts": []
           }
         }
       }

@@ -22,6 +22,7 @@ import { MenuDropdownComponent } from './top-menus/top-sub-menu/menu-dropdown/me
 import { MenuSubComponent } from './top-menus/top-sub-menu/menu-dropdown/drupdown-sub/menu-sub.component';
 import { DropdownItemComponent } from './top-menus/top-sub-menu/menu-dropdown/dropdown-item/dropdown-item.component';
 import { TopMenuDarkComponent } from './top-menus/top-menu-dark/top-menu-dark.component';
+import { FourDeckComponent } from './rows/four-deck/four-deck.component';
 
 
 
@@ -51,6 +52,7 @@ import { TopMenuDarkComponent } from './top-menus/top-menu-dark/top-menu-dark.co
     MenuSubComponent,
     DropdownItemComponent,
     TopMenuDarkComponent,
+    FourDeckComponent,
   ],
   providers: [
 
@@ -77,6 +79,7 @@ import { TopMenuDarkComponent } from './top-menus/top-menu-dark/top-menu-dark.co
     MenuDropdownComponent,
     MenuSubComponent,
     DropdownItemComponent,
+    FourDeckComponent,
 
     SvgHomeIcon,
     SvgBoxIcon,

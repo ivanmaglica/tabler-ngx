@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'tbl-top-sub-menu',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-sub-menu.component.css']
 })
 export class TopSubMenuComponent {
-
+  @Input() transparent: boolean = false;
 }
