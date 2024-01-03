@@ -6,6 +6,7 @@ import { TablerNgxComponent } from './tabler-ngx.component';
 import { FullPageComponent } from './pages/full-page/full-page.component';
 import { EmptyShellComponent } from './shells/empty-shell/empty-shell.component';
 import { VerticalTransparentShellComponent } from './shells/vertical-transparent-shell/vertical-transparent-shell.component';
+import { DefaultTopMenuComponent } from './components/top-menus/top-menu-light/default-top-menu/default-top-menu.component';
 
 
 
@@ -28,7 +29,6 @@ import { VerticalTransparentShellComponent } from './shells/vertical-transparent
 
     EmptyShellComponent,
     VerticalTransparentShellComponent,
-    
   ]
 })
 export class TablerNgxModule { }
