@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'tbl-top-menu-light',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-menu-light.component.css']
 })
 export class TopMenuLightComponent {
-  logo: string = "./assets/static/logo.svg";
+  @Input() logo: string = "./assets/static/logo.svg";
 }

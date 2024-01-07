@@ -18,7 +18,7 @@ import { DefaultTopMenuComponent } from './components/top-menus/top-menu-light/d
 
     EmptyShellComponent,
     VerticalTransparentShellComponent,
-
+    
   ],
   imports: [
     CommonModule
