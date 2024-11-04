@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-top-menu-dark',
+  selector: 'tbl-top-menu-dark',
   templateUrl: './top-menu-dark.component.html',
   styleUrls: ['./top-menu-dark.component.css']
 })
 export class TopMenuDarkComponent {
+  @Input() logo: string = "./assets/static/logo.svg";
 
 }

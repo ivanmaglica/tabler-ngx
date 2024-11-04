@@ -80,6 +80,7 @@ import { FourDeckComponent } from './rows/four-deck/four-deck.component';
     MenuSubComponent,
     DropdownItemComponent,
     FourDeckComponent,
+    TopMenuDarkComponent,
 
     SvgHomeIcon,
     SvgBoxIcon,
