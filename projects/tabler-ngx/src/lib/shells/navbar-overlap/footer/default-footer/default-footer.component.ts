@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'tbl-default-footer',
   standalone: false,
-  templateUrl: './default-footer.component.html',
-  styleUrls: ['./default-footer.component.css']
+  template: `
+
+<p>default-footer works!</p>
+
+  `,
+  styles: [``]
 })
 export class DefaultFooterComponent {
 
