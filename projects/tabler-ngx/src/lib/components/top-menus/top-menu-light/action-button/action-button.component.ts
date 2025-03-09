@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-action-button',
+  standalone: false,
   templateUrl: './action-button.component.html',
   styleUrls: ['./action-button.component.css']
 })

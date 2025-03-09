@@ -4,7 +4,7 @@ import { VerticalShellComponent } from './vertical-shell.component';
 import { LeftVerticalSidebarComponent } from './sidebar/left-vertical-sidebar/left-vertical-sidebar.component';
 import { CommonComponentsModule } from '../../components/common-components.module';
 import { CommonModule } from '@angular/common';
-import { DefaultPageHeaderComponent } from './page/default-pageheader/default-pageheader.component';
+import { DefaultPageHeaderComponent } from './page/default-page-header/default-page-header.component';
 import { PageHeaderComponent } from './page/page-header/page-header.component';
 import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
 import { SidebarItemComponent } from './sidebar/sidebar/sidebar-item/sidebar-item.component';

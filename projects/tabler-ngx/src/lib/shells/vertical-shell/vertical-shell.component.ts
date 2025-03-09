@@ -3,6 +3,7 @@ import { IMenu } from './sidebar/left-vertical-sidebar/left-vertical-sidebar.com
 
 @Component({
   selector: 'tbl-vertical-shell',
+  standalone: false,
   templateUrl: './vertical-shell.component.html',
   styleUrls: ['./vertical-shell.component.css']
 })

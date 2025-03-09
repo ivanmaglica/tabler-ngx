@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar',
+  standalone: false,
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.css'],
   host: {

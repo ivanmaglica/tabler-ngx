@@ -2,6 +2,7 @@ import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar-sub',
+  standalone: false,
   templateUrl: './sidebar-sub.component.html',
   styleUrls: ['./sidebar-sub.component.css'],
   host: {

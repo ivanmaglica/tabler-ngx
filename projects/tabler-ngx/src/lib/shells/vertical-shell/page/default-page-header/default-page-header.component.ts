@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-default-page-header',
-  templateUrl: './default-pageheader.component.html',
-  styleUrls: ['./default-pageheader.component.css']
+  standalone: false,
+  templateUrl: './default-page-header.component.html',
+  styleUrls: ['./default-page-header.component.css']
 })
 export class DefaultPageHeaderComponent {
 

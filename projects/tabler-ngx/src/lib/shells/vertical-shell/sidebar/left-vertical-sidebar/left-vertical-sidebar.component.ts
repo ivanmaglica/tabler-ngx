@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'tbl-left-vertical-sidebar',
+  standalone: false,
   templateUrl: './left-vertical-sidebar.component.html',
   styleUrls: ['./left-vertical-sidebar.component.css']
 })

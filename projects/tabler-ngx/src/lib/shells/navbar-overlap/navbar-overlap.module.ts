@@ -11,7 +11,7 @@ import { DefaultPageHeaderComponent } from './header/default-page-header/default
     NavbarOverlapShellComponent,
     DefaultMenuComponent,
     DefaultFooterComponent,
-    DefaultPageHeaderComponent
+    DefaultPageHeaderComponent,
   ],
   imports: [
     CommonModule
@@ -23,6 +23,7 @@ import { DefaultPageHeaderComponent } from './header/default-page-header/default
     NavbarOverlapShellComponent,
     DefaultMenuComponent,
     DefaultFooterComponent,
+    DefaultPageHeaderComponent,
   ]
 })
 export class NavbarOverlapModule {

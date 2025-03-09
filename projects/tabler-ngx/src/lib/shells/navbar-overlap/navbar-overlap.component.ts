@@ -2,6 +2,7 @@ import { Component, Input, TemplateRef } from '@angular/core';
 
 @Component({
   selector: 'tbl-navbar-overlap-shell',
+  standalone: false,
   templateUrl: './navbar-overlap.component.html',
   styleUrls: ['./navbar-overlap.component.css']
 })
