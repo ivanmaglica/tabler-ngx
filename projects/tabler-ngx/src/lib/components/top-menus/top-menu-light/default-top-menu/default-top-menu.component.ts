@@ -1,8 +1,17 @@
 import { Component } from '@angular/core';
+import { TopMenuLightComponent } from "../top-menu-light.component";
+import { ActionButtonComponent } from "../action-button/action-button.component";
+import { MessagesDropdownComponent } from "../messages-dropdown/messages-dropdown.component";
+import { GenericDropdownCardComponent } from "../generic-dropdown-card/generic-dropdown-card.component";
+import { TopSubMenuComponent } from "../../top-sub-menu/top-sub-menu.component";
+import { MenuItemComponent } from "../../top-sub-menu/menu-item/menu-item.component";
+import { MenuDropdownComponent } from "../../top-sub-menu/menu-dropdown/menu-dropdown.component";
+import { DropdownItemComponent } from "../../top-sub-menu/menu-dropdown/dropdown-item/dropdown-item.component";
+import { MenuSubComponent } from "../../top-sub-menu/menu-dropdown/drupdown-sub/menu-sub.component";
 
 @Component({
   selector: 'tbl-default-top-menu',
-  standalone: false,
+  standalone: true,
   template: `
 
 <tbl-top-menu-light>
@@ -70,7 +79,18 @@ import { Component } from '@angular/core';
 </tbl-top-sub-menu>
 
   `,
-  styles: [``]
+  styles: [``],
+  imports: [
+    TopMenuLightComponent,
+    ActionButtonComponent,
+    MessagesDropdownComponent,
+    GenericDropdownCardComponent,
+    TopSubMenuComponent,
+    MenuItemComponent,
+    MenuDropdownComponent,
+    DropdownItemComponent,
+    MenuSubComponent
+  ]
 })
 export class DefaultTopMenuComponent {
 

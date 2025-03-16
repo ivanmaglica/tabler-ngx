@@ -1,8 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { SvgHomeIcon, SvgBoxIcon, SvgCheckIcon } from "../../../../components/icons/svg-icons/svg-icons.component";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'tbl-left-vertical-sidebar',
-  standalone: false,
+  standalone: true,
   template: `
 
 <ng-container *ngIf="!menu">
@@ -317,7 +319,13 @@ import { Component, Input, OnInit } from '@angular/core';
 </ng-container>
 
   `,
-  styles: [``]
+  styles: [``],
+  imports: [
+    CommonModule,
+    SvgHomeIcon,
+    SvgBoxIcon,
+    SvgCheckIcon
+  ]
 })
 export class LeftVerticalSidebarComponent implements OnInit {
   @Input() public logoUrl?: string = ""; // ./assets/static/logo-white.svg

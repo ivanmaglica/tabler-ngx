@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-revenue-widget',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="card">

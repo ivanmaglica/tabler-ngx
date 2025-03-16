@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-default-page-header',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="page-header d-print-none text-white">

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-messages-dropdown',
-  standalone: false,
+  standalone: true,
   template: `
 
 <!-- <div class="d-none d-md-flex"> -->

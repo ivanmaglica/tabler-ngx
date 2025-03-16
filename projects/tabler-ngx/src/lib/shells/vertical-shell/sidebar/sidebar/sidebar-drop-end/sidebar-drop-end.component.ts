@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar-drop-end',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="dropend">

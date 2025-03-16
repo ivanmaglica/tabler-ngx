@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-menu-item',
-  standalone: false,
+  standalone: true,
   template: `
 
 <li class="nav-item">

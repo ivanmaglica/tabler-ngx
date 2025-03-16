@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-profile-dropdown',
-  standalone: false,
+  standalone: true,
   template: `
 
 <!-- <div class="nav-item dropdown"> -->

@@ -3,14 +3,14 @@ import { IMenu } from './sidebar/left-vertical-sidebar/left-vertical-sidebar.com
 
 @Component({
   selector: 'tbl-vertical-shell',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="page">
 
 
   <!-- Sidebar -->
-  <aside class="navbar navbar-vertical navbar-expand-lg">
+  <aside class="navbar navbar-vertical navbar-expand-lg" [attr.data-bs-theme]="dark ? 'dark' : ''">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar-menu" aria-controls="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -107,4 +107,5 @@ import { IMenu } from './sidebar/left-vertical-sidebar/left-vertical-sidebar.com
 })
 export class VerticalShellComponent {
   @Input() public sideMenu?: IMenu[];
+  @Input() public dark? = false;
 }

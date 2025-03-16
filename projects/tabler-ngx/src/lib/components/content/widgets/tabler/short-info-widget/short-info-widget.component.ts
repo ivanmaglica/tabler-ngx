@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-short-info-widget',
-  standalone: false,
+  standalone: true,
   template: ``,
   styles: [``]
 })

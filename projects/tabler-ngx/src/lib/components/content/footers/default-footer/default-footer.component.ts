@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-default-content-footer',
-  standalone: false,
+  standalone: true,
   template: `
 
 <footer class="footer footer-transparent d-print-none">

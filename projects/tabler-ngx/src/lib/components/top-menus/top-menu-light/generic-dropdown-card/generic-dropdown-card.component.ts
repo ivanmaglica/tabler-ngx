@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-generic-dropdown-card',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="nav-item dropdown d-none d-md-flex me-3">

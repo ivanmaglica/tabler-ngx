@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-default-menu',
-  standalone: false,
+  standalone: true,
   template: `
 
 <header class="navbar navbar-expand-md navbar-dark d-print-none navbar-overlap"

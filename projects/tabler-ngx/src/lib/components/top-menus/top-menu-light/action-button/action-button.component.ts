@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-action-button',
-  standalone: false,
+  standalone: true,
   template: `
 
 <a class="btn" target="_blank" rel="noreferrer">

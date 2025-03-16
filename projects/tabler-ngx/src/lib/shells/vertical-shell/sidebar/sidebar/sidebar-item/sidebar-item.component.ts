@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar-item',
-  standalone: false,
+  standalone: true,
   template: `
 
 <a class="nav-link" href="./" >

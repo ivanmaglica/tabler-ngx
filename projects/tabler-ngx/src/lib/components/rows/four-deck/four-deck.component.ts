@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: '[tbl-four-deck]',
-  standalone: false,
+  standalone: true,
   template: `
 
 <!-- <div class="row row-deck row-cards"> -->

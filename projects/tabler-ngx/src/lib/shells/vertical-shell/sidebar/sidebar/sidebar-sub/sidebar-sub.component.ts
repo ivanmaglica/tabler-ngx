@@ -2,7 +2,7 @@ import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar-sub',
-  standalone: false,
+  standalone: true,
   template: `
 
 <!-- <li class="nav-item dropdown"> -->

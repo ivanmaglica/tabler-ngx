@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'tbl-sidebar',
-  standalone: false,
+  standalone: true,
   template: `
 
 <!-- <div class="collapse navbar-collapse" id="sidebar-menu"> -->

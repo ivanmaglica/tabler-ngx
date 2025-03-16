@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'tbl-top-sub-menu',
-  standalone: false,
+  standalone: true,
   template: `
 
 <header class="navbar-expand-md">

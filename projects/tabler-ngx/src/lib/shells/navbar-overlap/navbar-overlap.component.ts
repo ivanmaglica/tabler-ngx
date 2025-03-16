@@ -1,8 +1,11 @@
 import { Component, Input, TemplateRef } from '@angular/core';
+import { DefaultPageHeaderComponent } from "./header/default-page-header/default-page-header.component";
+import { DefaultFooterComponent } from "./footer/default-footer/default-footer.component";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'tbl-navbar-overlap-shell',
-  standalone: false,
+  standalone: true,
   template: `
 
 <div class="page">
@@ -45,7 +48,12 @@ import { Component, Input, TemplateRef } from '@angular/core';
 
 
   `,
-  styles: [``]
+  styles: [``],
+  imports: [
+    CommonModule,
+    DefaultPageHeaderComponent,
+    DefaultFooterComponent
+  ]
 })
 export class NavbarOverlapShellComponent {
   @Input() public menu?: TemplateRef<any> | null = null;
